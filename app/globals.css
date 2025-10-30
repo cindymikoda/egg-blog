@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --background: #3a3a3a;
+  --background: #f3ecdb;
   --foreground: #171717;
   --color-egg-yellow: rgb(255, 200, 0);
   --color-egg-white: rgb(230, 230, 230);
+  --color-dark-gray: #1a1b1d;
 }

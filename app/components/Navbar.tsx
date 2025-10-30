@@ -13,7 +13,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-white">
+    <nav className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-[var(--color-egg-white)]">
       <Link href="/" className="flex items-center gap-2">
         <Image src="/egg-icon.svg" alt="Egg" width={32} height={32} />
         <span className="font-semibold text-lg">Egg Posts</span>
