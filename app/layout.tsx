@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-[var(--background)] text-gray-900 font-sans">
-        <Navbar />
+        <Navbar /> // Redirect user to About or Posts page if clicked.
         <main className="max-w-5xl mx-auto px-5 py-10">{children}</main>
       </body>
     </html>
